@@ -78,6 +78,7 @@ function App() {
       await playSound();
       await txn.wait();
       await console.log("success")
+
     } catch(error) {
       if ((error.code === "INSUFFICIENT_FUNDS") || (error.code === -32603) || (error.code === -32000)) {
         window.alert("You Don't Have Enough Money")

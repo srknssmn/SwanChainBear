@@ -163,6 +163,19 @@ export const RAFFLE_ABI = [
                 "type": "uint256"
             }
         ],
+        "name": "reSetMonsterFirstHealth",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "_health",
+                "type": "uint256"
+            }
+        ],
         "name": "reSetMonsterHealth",
         "outputs": [],
         "stateMutability": "nonpayable",
